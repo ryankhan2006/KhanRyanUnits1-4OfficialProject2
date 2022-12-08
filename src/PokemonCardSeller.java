@@ -263,7 +263,7 @@ public class PokemonCardSeller {
         String four = mewtwo + " peaches - " + "$" + df.format(Math.round(costMewtwoCards(mewtwo, 149.99)*100.00)/100.00);
         String five = bulbasaur + " bulbasaur - " + "$" + df.format(Math.round(costBublasaurCards(bulbasaur, 24.99)*100.00)/100.00);
         String six = snorlax + " snorlax - " + "$" + df.format(Math.round(costSnorlaxCards(snorlax, 4.99)*100.00)/100.00);
-        String seven = raichu + " raichu - " + "$" + df.format(Math.round(costRaichuCards(snorlax, 9.99)*100.00)/100.00);
+        String seven = raichu + " raichu - " + "$" + df.format(Math.round(costRaichuCards(raichu, 9.99)*100.00)/100.00);
 
         return one + "\n" + two + "\n" + three + "\n"  + four + "\n"  + five + "\n"  + six + "\n"  + seven;
 
